@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Loja.css">
+    <title>Catálogo de Produtos</title>
+</head>
+<body>
+    <h1>Catálogo de Produtos</h1>
+
+    <div class="produtos-container">
+      <!-- Produto 1 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/x_ray-removebg-preview.png"></div>
+        <div class="descricao">Kobe 5 Protro - X Ray.</div>
+        <div class="preco">R$ 1299,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/venice_beach-removebg-preview.png"></div>
+        <div class="descricao">Kobe 8 - Venice Beach.</div>
+        <div class="preco">R$ 1099,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/grinch_vermelho-removebg-preview.png"></div>
+        <div class="descricao">Kobe 6 Protro - Grinch (CW red)</div>
+        <div class="preco">R$ 1220,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/grinch_verde-removebg-preview.png"></div>
+        <div class="descricao">Kobe 6 Protro - Grinch (CW green)</div>
+        <div class="preco">R$ 1220,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 5 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/bruceLee-removebg-preview.png"></div>
+        <div class="descricao">Kobe 6 Protro - Bruce Lee.</div>
+        <div class="preco">R$ 1499,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 6 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/bob-removebg-preview.png"></div>
+        <div class="descricao">Kyrie 5 - SpongeBob</div>
+        <div class="preco">R$ 1020,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 7 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/patrick-removebg-preview.png"></div>
+        <div class="descricao">Kyrie 5 - Patrick</div>
+        <div class="preco">R$ 1020,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 8 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/molusco-removebg-preview.png"></div>
+        <div class="descricao">Kyrie 5 - Molusco.</div>
+        <div class="preco">R$ 1020,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 9 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/valentine-removebg-preview.png"></div>
+        <div class="descricao">Lebron XIX - Valentine's Day.</div>
+        <div class="preco">R$ 1090,00</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 10 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/space_jam-removebg-preview.png"></div>
+        <div class="descricao">Lebron XIX - Space Jam</div>
+        <div class="preco">R$ 1190,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 11 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/rickmorty-removebg-preview.png"></div>
+        <div class="descricao">Mb01 - Rick And Morty</div>
+        <div class="preco">R$ 900,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 12 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="img/pink-removebg-preview.png"></div>
+        <div class="descricao">Tatum 1 - Pink Lemonade</div>
+        <div class="preco">R$ 1000,99</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+
+    <!-- Botão Flutuante Carrinho -->
+    <button id="btn-carrinho" aria-label="Abrir Carrinho">🛒
+      <span id="contador-quantidade">0</span>
+    </button>
+
+    <!-- Aba Lateral Carrinho -->
+    <aside id="carrinho-lateral" aria-label="Carrinho de compras">
+      <h2>Seu Carrinho</h2>
+      <div id="itens-carrinho"></div>
+      <div id="carrinho-vazio">Seu carrinho está vazio</div>
+      <div id="total-carrinho">Total: R$ 0,00</div>
+      <button id="btn-finalizar">Finalizar Compra</button>
+    </aside>
+
+    <script src="Loja.js"></script>
+</body>
+</html>

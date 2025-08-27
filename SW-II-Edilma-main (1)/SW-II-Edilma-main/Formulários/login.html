@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="LogCad.css" />
+</head>
+<body>
+
+  <div class="form-fundo">
+    <div class="form-login">
+      <h2>Login</h2>
+      <form action="login.php" method="post">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required />
+
+        <button class="btn_1" type="submit">Entrar</button>
+
+        <button class="btn_2" type="button" onclick="window.location.href='cadastro.html'">Cadastrar-se</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="cadastro.js"></script>
+</body>
+</html>
